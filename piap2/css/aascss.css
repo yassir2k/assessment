@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+#page
+{
+margin: 0 auto;
+margin-top: -8px;
+width: 960px;
+height:auto;
+background-color: #f5f5f5;		
+}
+#banner
+{
+margin-top: 0;
+height: 110px;
+margin: auto auto auto auto;
+position: relative;
+width: 960px;
+background-color: transparent;
+top: 0px;
+left: 0px;
+}
+
+#topbg {
+background-image:url('../images/aasbanner.png');
+background-repeat:no-repeat;
+height:110px;
+width:960px;
+margin-top:0px;
+}
+
+#footer
+{
+ clear: both;
+ width:960px; 
+ height: 80px; 
+ background-image:url('../images/footer_cac.png');	
+ text-align:center;
+ font-size:10px;
+ color:white;
+ margin: auto;
+}
+a.mainLink
+{
+	font-family:cambria;
+	font-size:22px;
+	color:#999;
+	text-decoration:none;
+}
+
+a.mainLink:hover
+{
+	font-family:cambria;
+	font-size:22px;
+	color:#999;
+	text-decoration:underline;
+}
+a.signout
+{
+	font:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#666;
+	text-decoration:none;
+}
+
+a.signout:hover
+{
+	font:"Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#333;
+	text-decoration:underline;
+}
